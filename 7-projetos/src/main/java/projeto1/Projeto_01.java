@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Projeto_01 {
     public static void main(String[] args) {
+//        Exercício tipico da faculdade:
+//        leitura, com scanner, e inputando dados.
+        
         System.out.print("\n===Olá pessoal\n este é o estudo sobre as classes" +
                 "no intellij");
         Scanner n1Scanner = new Scanner(System.in);
