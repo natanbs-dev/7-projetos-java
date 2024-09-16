@@ -23,7 +23,7 @@ public class Calculadora_WHILE {
 
     // Método para salvar os resultados em um arquivo
     public static void salvarNoArquivo(String operacao, double resultado) {
-        try (FileWriter writer = new FileWriter("resultados.txt", true)) {
+        try (FileWriter writer = new FileWriter("resultados(Calculadora).txt", true)) {
             writer.write("Operação: " + operacao + ", Resultado: " + resultado + "\n");
         } catch (IOException e) {
             System.out.println("Erro ao salvar no arquivo: " + e.getMessage());
